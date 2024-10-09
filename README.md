@@ -20,7 +20,6 @@
 3. Install required libraries by using requirements.txt
     ```
     pip install -r requirements.txt
-
     ```
 ---
 
