@@ -10,7 +10,7 @@
     ```
     Windows :
     1. python -m venv [가상환경이름]
-    2. [가상환경이름]\Scripts\activate
+    2. source [가상환경이름]\Scripts\activate
     ```
     ```
     macOS / Linux :
