@@ -1,12 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>hello django!</h1>
-  </body>
+{% load static %}
+
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaCare - Empowering Your Health Journey</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>Tilt Care</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-btn">Menu</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Empowering Your Health Journey</h1>
+                <p>Experience personalized care with cutting-edge medical expertise. Your well-being is our mission.</p>
+                <a href="#" class="cta-button">Start Your Journey</a>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2>Our Comprehensive Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="far fa-calendar-alt"></i>
+                        <h3>Smart Scheduling</h3>
+                        <p>Effortlessly book appointments that fit your busy lifestyle with our AI-powered scheduling system.</p>
+                        <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <i class="far fa-clock"></i>
+                        <h3>24/7 Care Access</h3>
+                        <p>Round-the-clock support from our dedicated team of healthcare professionals, always ready to assist you.</p>
+                        <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Personalized Treatment</h3>
+                        <p>Tailored care plans designed to address your unique health needs and goals effectively.</p>
+                        <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>VitaCare</h4>
+                    <p>Empowering health through compassionate care and cutting-edge medicine.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Meet Our Doctors</a></li>
+                        <li><a href="#">Patient Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-info">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 234-5678</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@vitacare.com</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>789 Wellness Ave, Healthville, HV 56789</span>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Stay Connected</h4>
+                    <p>Subscribe to our newsletter for health tips and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 VitaCare. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
