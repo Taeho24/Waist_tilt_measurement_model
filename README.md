@@ -1,6 +1,27 @@
-# Waist_tilt_measurement_model
-Waist tilt measurement model using smartphone
+# Contributor
+- [Taeho24](https://github.com/Taeho24)
+---
+# Project
+- Waist tilt measurement model using smartphone
+---
+# Install
+1. After Cloning this repository, move to the directory and open the terminal or command prompt.
+2. By using terminal or command prompt, create virtual environment and activate it.
+    ```
+    Windows :
+    1. python -m venv venv
+    2. venv\Scripts\activate
+    ```
+    ```
+    macOS / Linux :
+    1. python3 -m venv venv
+    2. source venv/bin/activate
+    ```
+3. Install required libraries by using requirements.txt
+    ```
+    pip install -r requirements.txt
 
+    ```
 ---
 
 # Dependencies
