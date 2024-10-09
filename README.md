@@ -9,13 +9,13 @@
 2. By using terminal or command prompt, create virtual environment and activate it.
     ```
     Windows :
-    1. python -m venv venv
-    2. venv\Scripts\activate
+    1. python -m venv [가상환경이름]
+    2. [가상환경이름]\Scripts\activate
     ```
     ```
     macOS / Linux :
-    1. python3 -m venv venv
-    2. source venv/bin/activate
+    1. python3 -m venv [가상환경이름]
+    2. source [가상환경이름]/bin/activate
     ```
 3. Install required libraries by using requirements.txt
     ```

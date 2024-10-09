@@ -1,3 +1,9 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 # Gradle files
 .gradle/
 build/
@@ -7,6 +13,12 @@ local.properties
 
 # Log/OS Files
 *.log
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 
 # Android Studio generated files and folders
 captures/
