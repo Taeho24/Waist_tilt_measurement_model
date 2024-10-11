@@ -36,4 +36,7 @@
 ## Language, Framework, Library
 - [Django](https://www.djangoproject.com/)
 - [Android Studio](https://developer.android.com/studio/)
+- [Python](https://www.python.org/)
+- [HTML](https://developer.mozilla.org/ko/docs/Web/HTML)
+- Other Libraries are listed in requirements.txt
 ---
