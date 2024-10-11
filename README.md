@@ -21,8 +21,13 @@
     ```
     pip install -r requirements.txt
     ```
----
 
+4. Migrate and runserver using manage.py
+    ```
+    python manage.py migrate
+    python manage.py runserver
+    ```
+---
 # Dependencies
 ## Development Environment
 - [PyCharm](https://www.jetbrains.com/ko-kr/pycharm/)
