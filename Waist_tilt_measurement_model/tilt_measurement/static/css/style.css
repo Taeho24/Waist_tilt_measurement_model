@@ -1,0 +1,238 @@
+/* static/css/stule.css*/
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to bottom right, #f3e8ff, #e0e7ff);
+    min-height: 100vh;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4338ca;
+}
+.logo i {
+    margin-right: 0.5rem;
+    color: #7c3aed;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    margin-left: 1.5rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #4338ca;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #7c3aed;
+}
+.menu-btn {
+    display: none;
+    background-color: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+}
+.hero h1 {
+    font-size: 3rem;
+    color: #1e1b4b;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.25rem;
+    color: #4338ca;
+    margin-bottom: 2rem;
+}
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(to right, #7c3aed, #4338ca);
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+.cta-button:hover {
+    transform: scale(1.05);
+}
+
+/* Services section styles */
+.services {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1e1b4b;
+    margin-bottom: 3rem;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.service-card {
+    background: linear-gradient(to bottom right, #f3e8ff, #e0e7ff);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+}
+.service-card i {
+    font-size: 3rem;
+    color: #7c3aed;
+    margin-bottom: 1rem;
+}
+.service-card h3 {
+    font-size: 1.5rem;
+    color: #1e1b4b;
+    margin-bottom: 1rem;
+}
+.service-card p {
+    color: #4338ca;
+    margin-bottom: 1rem;
+}
+.service-card a {
+    color: #7c3aed;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+.service-card a i {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #1e1b4b;
+    color: #fff;
+    padding: 3rem 0;
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+.footer-section h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.footer-section p, .footer-section ul {
+    color: #a5b4fc;
+}
+.footer-section ul {
+    list-style-type: none;
+}
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+.footer-section ul li a {
+    color: #a5b4fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-section ul li a:hover {
+    color: #fff;
+}
+.contact-info div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.contact-info i {
+    margin-right: 0.5rem;
+    color: #7c3aed;
+}
+.newsletter-form {
+    display: flex;
+    margin-top: 1rem;
+}
+.newsletter-form input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.newsletter-form button {
+    background-color: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #4338ca;
+    color: #a5b4fc;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
