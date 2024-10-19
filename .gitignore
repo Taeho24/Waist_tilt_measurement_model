@@ -28,6 +28,9 @@ captures/
 *.apk
 output.json
 
+# macOS folder settings
+.DS_Store
+
 # IntelliJ
 *.iml
 .idea/
