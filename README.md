@@ -31,19 +31,17 @@
     python manage.py runserver
     ```
 ---
----
 # web Install
 1. After Cloning this repository
 2. Verify Node.js and npm Installation
-
-Ensure that Node.js and npm are installed on your system by running the following commands:
+3. Ensure that Node.js and npm are installed on your system by running the following commands:
 ```bash
 node -v
 npm -v
 ```
-If not installed, download and install Node.js from [nodejs.org](https://nodejs.org/en/).
-3. move to the directory and open the terminal or command prompt.
-4. By using terminal or command prompt, create virtual environment and activate it.
+4. If not installed, download and install Node.js from [nodejs.org](https://nodejs.org/en/).
+5. move to the directory and open the terminal or command prompt.
+6. By using terminal or command prompt, create virtual environment and activate it.
     ```
     Windows :
     1. python -m venv [가상환경이름]
@@ -54,12 +52,12 @@ If not installed, download and install Node.js from [nodejs.org](https://nodejs.
     1. python3 -m venv [가상환경이름]
     2. source [가상환경이름]/bin/activate
     ```
-5. Install required libraries by using requirements.txt and commands
+7. Install required libraries by using requirements.txt and commands
 
     ```
     pip install parcel
     ```
-6. Migrate and runserver using npm script
+8. Migrate and runserver using npm script
     ```
     npm start
     npm run dev
@@ -77,5 +75,4 @@ If not installed, download and install Node.js from [nodejs.org](https://nodejs.
 - [Android Studio](https://developer.android.com/studio/)
 - [Python](https://www.python.org/)
 - [HTML](https://developer.mozilla.org/ko/docs/Web/HTML)
-- Other Libraries are listed in requirements.txt
 ---
